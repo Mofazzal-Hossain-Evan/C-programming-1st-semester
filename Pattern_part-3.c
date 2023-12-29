@@ -8,7 +8,10 @@ int main() {
 
     for( row = n; row >= 1; row--) {
         for(col = 1; col<=row; col++) {
-            printf("%d", col);
+            //printf("%d", col);
+            //printf("%d", row%2);
+            printf("#");
+
 
         }
           printf("\n");
